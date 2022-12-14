@@ -56,7 +56,7 @@ io.on('connection', socket => {
     })
   })
 })
-mongoose.connect(`mongodb+srv://user:HC7W3DzaRel4ylxq@cluster0.hnbr0.mongodb.net/video?retryWrites=true&w=majority`)
+mongoose.connect(`mongodb+srv://admin:lRbedv2BquWiNYif@cluster0.hnbr0.mongodb.net/video?retryWrites=true&w=majority`)
 .then(result =>{
   console.log('Connected');
   server.listen(process.env.PORT||3030);
